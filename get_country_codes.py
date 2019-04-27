@@ -1,4 +1,4 @@
-def get_country_codes(param):
+def get_country_codes(prices):
     # Your code here. Maybe try pseudocoding this one out?
     alpha_list = []
     converted_string = ""
