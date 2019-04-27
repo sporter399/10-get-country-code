@@ -10,4 +10,4 @@ def get_country_codes(prices):
         
          converted_string  += "".join(alpha_list[i*2:(i*2) + 2]) + ", "
         
-    return converted_string
+    return converted_string.rstrip(", ")
